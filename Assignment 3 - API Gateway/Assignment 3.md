@@ -30,13 +30,14 @@ Before starting this assignment, make sure you have completed the previous assig
 3. Click on "Deploy".
 4. Note down the "Invoke URL" that is displayed on the "prod" stage. You will use this URL to test your API.
 
-### Part 4: Modify the Lambda function to accept query parameters
-1. Open your C# Lambda function code in your IDE.
-2. Modify the FunctionHandler method to accept a APIGatewayProxyRequest object as a parameter instead of a string.
-3. Modify the FunctionHandler method to return a APIGatewayProxyResponse object instead of a string.
-4. In the FunctionHandler method, retrieve the name query parameter from the APIGatewayProxyRequest object.
-5. Modify the FunctionHandler method to return a JSON response that includes the greeting message with the name of the person.
+
+## Optional
+### Part 4: Modify the Lambda function to accept query string and parameters
+1. Go to Lambda and open your Lambda function in the code editor
+2. Modify it to get a query string and make this input be reflected in some way.
+Feel free to use my example called part4.js
 
 ### Part 5: Test the API Gateway API
-1. Use a web browser or a tool like curl to make a GET request to the "Invoke URL" of your API Gateway API with the name query parameter set to your name. For example, if your name is John, the URL would be https://your-api-gateway-url/prod/hello?name=John.
+1. Use a web browser or a tool like curl to make a GET request to the "Invoke URL" of your API Gateway API with the name query parameter set to your name.
+For example, if your name is John, the URL would be https://your-api-gateway-url/prod/hello?name=John.
 2. Verify that the response you receive contains the greeting message with your name.

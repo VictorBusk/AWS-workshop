@@ -1,9 +1,0 @@
-# Solution
-1. Create a new AWS Lambda function using the programming language of my choice, such as Node.js or Python. I would ensure that the function takes a JSON payload as input and returns a JSON payload as output. I would also add console.log statements in the function to log any relevant information.
-2. Create a new REST API in API Gateway. I would choose the REST API type and name it appropriately. I would then create a new resource with a name and path, and create a new method (e.g. GET, POST, PUT, etc.) for that resource.
-3. Connect the method to the Lambda function I created in step 1. I would choose "Lambda Function" as the integration type, and select the Lambda function I created. I would also configure the method request and integration request to pass the necessary input parameters to the Lambda function.
-4. Deploy the API to a stage, such as "prod". I would select "Actions" and then "Deploy API" from the API Gateway console, and choose the appropriate deployment stage.
-5. Test the API using a REST API client such as Postman or cURL. I would send a request to the API endpoint, passing in a JSON payload as input. I would then verify that I receive a JSON payload as output from the Lambda function.
-6. Create a new resource and method in the API that requires authorization using an API key. I would create a new resource and method, and select "API Key" as the authorization type. I would then configure the API Gateway to require the API key for access to this resource.
-7. Generate an API key for the API. I would select "API Keys" from the API Gateway console, and generate a new API key. I would then copy the API key value for use in testing.
-8. Test the authorized resource using a REST API client and the correct API key. I would send a request to the API endpoint for the authorized resource, passing in the API key in the request headers. I would then verify that I receive the expected response from the Lambda function.

@@ -10,25 +10,12 @@ In this assignment, you will create a simple AWS Lambda function using the AWS M
 2. Click on "Create function".
 3. Choose "Author from scratch".
 4. Enter a name for your function.
-5. Choose ".NET Core 3.1" as the runtime.
+5. Choose node.js as the runtime.
 6. Under "Permissions", choose "Create a new role with basic Lambda permissions".
 7. Click "Create function".
-8. In the "Function code" section, replace the existing code with the following:
-
-    using Amazon.Lambda.Core;
-
-    [assembly:LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
-
-    public class Function
-    {
-        public string FunctionHandler(string input, ILambdaContext context)
-        {
-            return "Hello, world!";
-        }
-    }
-
+8. In the "Function code" section, replace the existing code with the code in "helloworld.cs".
 9. Click "Deploy" to save the function.
-10. Click "Test" and create a new test event with the following JSON:
+10. Click "Test" and create a new test event. You can leave the body blank but I suggest going with the default request body. This will give you more inside of what is logged:
 
     {
         "key1": "value1",
