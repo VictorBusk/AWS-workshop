@@ -1,0 +1,9 @@
+{
+  "name": "product-inventory-api",
+  "version": "1.0.0",
+  "description": "API for managing a product inventory using AWS DynamoDB",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.105.0"
+  }
+}
