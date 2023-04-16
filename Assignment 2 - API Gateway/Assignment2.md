@@ -1,9 +1,5 @@
 # Goal
-
 The goal of this assignment is to create an AWS Lambda function that can be invoked via API Gateway, which will return a greeting message with the name of the person passed in as a query parameter.
-
-## Prerequisites
-Before starting this assignment, make sure you have completed the previous assignment on creating a basic Lambda function in C# and know how to deploy it to AWS.
 
 ## Instructions
 ### Part 1: Create a new REST API in API Gateway
@@ -29,7 +25,6 @@ Before starting this assignment, make sure you have completed the previous assig
 2. Choose "New Stage" and enter a name for your stage, such as "prod".
 3. Click on "Deploy".
 4. Note down the "Invoke URL" that is displayed on the "prod" stage. You will use this URL to test your API.
-
 
 ## Optional
 ### Part 4: Modify the Lambda function to accept query string and parameters

@@ -1,11 +1,9 @@
-# AWS Lambda Assignment 
+# AWS Lambda Assignment
 
 ## Introduction
-
 In this assignment, you will create a simple AWS Lambda function using the AWS Management Console.
 
 ## Steps
-
 1. Go to the AWS Management Console and navigate to the Lambda service.
 2. Click on "Create function".
 3. Choose "Author from scratch".
