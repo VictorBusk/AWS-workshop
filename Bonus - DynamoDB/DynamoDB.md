@@ -17,4 +17,5 @@ This will allow it to connect to DynamoDB and log to CloudWatch.
 ## Part 3: API Gateway
 1. Create a new API Gateway
 2. Add all the resources and methods corresponding to the code. See the picture for reference.
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/dynamodb.png)
 3. Deploy the API and call away from Postman.
