@@ -19,6 +19,7 @@ The goal of this assignment is to create an AWS Lambda function that can be invo
 7. Select the region where you deployed your Lambda function.
 8. Enter the name of your Lambda function in the "Lambda Function" field.
 9. Click on "Save".
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/helloworld.png)
 
 ### Part 3: Deploy the API Gateway API
 1. With your new method selected, click on "Deploy API" under the "Actions" menu.

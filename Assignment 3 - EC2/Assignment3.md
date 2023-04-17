@@ -32,3 +32,5 @@ sudo service grafana-server start
 
 To access it you need to update the security group to allow for all CIDRs on port 3000 with custom TCP.
 The URL to acces grafana is [Public IPv4 address]:3000
+
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/securitygroup.png)

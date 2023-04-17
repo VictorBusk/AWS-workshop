@@ -11,6 +11,7 @@ In this assignment, you will create a REST API using AWS API Gateway and connect
 The initial page with throttling settings can just be unticked as it is not relevant for this assignment.
 On the second page add your API and the stage you have deployed it in.
 On the thrid page add the API Key.
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/apikey.png)
 
 ## Part 2: Add API Key to the request
 1. Go to the API method -> Method request
