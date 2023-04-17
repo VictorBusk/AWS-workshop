@@ -11,6 +11,7 @@ Afterwards the EC2 instance should remain available, but blocked for everyone el
 4. Configure the bucket properties and permissions as desired. Click "Next".
 5. Review your settings and click "Create bucket".
 6. Navigate to your newly created bucket and upload a file to it.
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/s3.png)
 
 ## Part 2: Access the S3 from your EC2 instance
 1. Go to IAM and create a new role.
@@ -20,6 +21,7 @@ This can be done through Action -> Security -> Modify IAM role. Select the role 
 4. Connect to the EC2 instanse and access the S3 bucket. Utilize these two commands:
 aws s3 ls <- List all buckets
 aws s3 ls s3://YOUR-BUCKET-NAME <- Lists the content of the specific bucket.
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/iam.png)
 
 ## Part 3: VPC endpoint policy
 1. Go to VPC -> Endpoints -> Create endpoint

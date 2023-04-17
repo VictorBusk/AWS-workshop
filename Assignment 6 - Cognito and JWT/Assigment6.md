@@ -10,6 +10,7 @@
 - Advanced app client settings should be expanded and have "OAuth 2.0 grant types" changed to Implicit grant
 2. Create a user for this user pool
 3. Go to YOUR-POOL -> App Integration -> YOUR-APP-CLIENT (In the bottom of the page)
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/cognito.png)
 4. Press "View hosted UI"
 5. Login with the user you created and reset the temporary password
 6. You should now be navigated to the callback url.
@@ -20,6 +21,7 @@
 2. Go to the Authorizer tab in the laft pane
 3. Make it a cognito authorizer with your pool chosen and the token source name whatever you would like to call you header.
 It could be "Authrization".
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/auth.png)
 4. Go to any method and go to the Method Request
 5. Change the authorization the authorizer you created before (refresh the page if it isn't present yet).
 6. For OAuth scope for "email"

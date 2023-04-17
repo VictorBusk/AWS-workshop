@@ -9,6 +9,7 @@ In this assignment, you will create an EC2 instance.
 5. Once your instance is created, navigate to the EC2 dashboard and select the instance you want to connect to.
 6. Click on the "Connect" button at the top of the screen.
 7. You are now in the instances terminal
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/ec2connect.png)
 
 That's it! Once you're connected to your instance's terminal, you can start configuring your instance and installing any software you need.
 

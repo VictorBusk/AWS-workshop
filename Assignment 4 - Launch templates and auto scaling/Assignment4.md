@@ -2,6 +2,7 @@
 1. Go to EC2 -> Launch template
 2. Create new Launch template
 In this step keep it simple. The only thing needed is when picking AMI, go for t2.micro as it is eligible for free tier.
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/launchtemplate.png)
 
 ## Part 2 - Create Auto-Scaling Group
 1. Go to EC2 -> Auto-Scaling-groups
@@ -13,3 +14,4 @@ Go check in the instance dashboard
 4. Terminate one of the instances.
 After a bit of time the chosen instance should be terminated and a new should take its place
 5. Head back to scaling groups -> [YOUR SCALING GROUP] -> Activity and see that the activities have been logged
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/scalinggroup.png)
