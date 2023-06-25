@@ -1,3 +1,14 @@
+## Objective
+The purpose of this assignment is to give you hands-on experience with Amazon Cognito, a service that provides user sign-up, sign-in, and access control to web and mobile apps. You will integrate Cognito with API Gateway to control access to your APIs, learning how to implement a basic yet robust authentication and authorization mechanism. By the end of this assignment, you will be able to:
+
+1. Set up an Amazon Cognito User Pool with custom sign-in options and password requirements.
+2. Use the hosted UI provided by Cognito to facilitate user registration and sign-in.
+3. Create a user for the User Pool and understand the process of signing in and managing users.
+4. Extract and interpret the ID and Access tokens provided upon successful sign-in.
+5. Create a Cognito authorizer in API Gateway and associate it with your API methods.
+6. Understand and implement OAuth scopes for API methods.
+7. Deploy updates to your API and test the implementation of authentication and authorization controls.
+
 ### Part 1: Creating a Cognito User Pool
 1. Go to Cognito and start creating a new pool with these settings:
 - Go for whatever sign in options you prefer. I suggest username.

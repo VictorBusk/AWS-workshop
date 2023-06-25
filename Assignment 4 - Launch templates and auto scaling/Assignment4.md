@@ -1,3 +1,11 @@
+## Objective
+This assignment is designed to help you understand and use AWS EC2 Auto Scaling groups and Launch Templates, crucial tools for maintaining the reliability, availability, and performance of your AWS applications. Upon completing this assignment, you will be able to:
+
+1. Create an EC2 Launch Template, which forms the basis for consistent and repeatable instance launches.
+2. Establish an EC2 Auto Scaling group using the previously created Launch Template, ensuring that you have a reliable number of healthy instances.
+3. Monitor and manage your EC2 instances, and understand the automatic replacement of instances in response to instance failure.
+4. Navigate through the Auto Scaling Group dashboard and understand how to interpret the activity log.
+
 ## Part 1 - Create Launch template
 1. Go to EC2 -> Launch template
 2. Create new Launch template

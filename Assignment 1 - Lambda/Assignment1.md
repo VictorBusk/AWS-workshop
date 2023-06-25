@@ -3,6 +3,15 @@
 ## Introduction
 In this assignment, you will create a simple AWS Lambda function using the AWS Management Console.
 
+## Objective
+The aim of this assignment is to provide you with a hands-on experience with AWS Lambda, a key service in the Amazon Web Services suite. By the end of this assignment, you will have gained the ability to:
+
+1. Navigate and understand the AWS Management Console, particularly the Lambda service.
+2. Create and configure a simple AWS Lambda function from scratch using Node.js.
+3. Understand and manage Lambda function permissions with a new role.
+4. Modify the function code and understand how to deploy changes.
+5. Run a test event and interpret the results.
+
 ## Steps
 1. Go to the AWS Management Console and navigate to the Lambda service.
 2. Click on "Create function".

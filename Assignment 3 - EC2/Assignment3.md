@@ -1,5 +1,15 @@
-# EC2 Assignment
+# Introduction
 In this assignment, you will create an EC2 instance.
+
+## Objective
+
+The purpose of this assignment is to familiarize you with Amazon EC2 (Elastic Compute Cloud), a fundamental component of the AWS infrastructure that provides scalable computing capacity in the cloud. Upon completion of this assignment, you should be able to:
+
+1. Navigate through the AWS console and understand the EC2 dashboard.
+2. Create and configure an Amazon EC2 instance, using a Linux Amazon Machine Image (AMI) and a t2.micro instance type.
+3. Connect to the EC2 instance and understand how to access the terminal.
+4. Execute basic commands in the terminal to install and launch third-party software, using Grafana as an example.
+5. Adjust the security group settings to enable access to specific ports, ensuring that you can interact with the installed software externally.
 
 ### Steps
 1. Navigate to the EC2 dashboard.

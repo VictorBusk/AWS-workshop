@@ -1,5 +1,13 @@
-# Goal
-The goal of this assignment is to create an AWS Lambda function that can be invoked via API Gateway, which will return a greeting message with the name of the person passed in as a query parameter.
+# Introduction
+In this assignment you will set up an API using API Gateway to utilize the aforementioned Lambda.
+## Objective
+
+This assignment is designed to deepen your understanding of AWS services by guiding you to integrate AWS Lambda and API Gateway, two pivotal services within the AWS ecosystem. By the end of this assignment, you will be able to:
+
+1. Set up a REST API using API Gateway and understand the process of creating resources and methods.
+2. Integrate a Lambda function with an API Gateway endpoint.
+3. Modify a Lambda function to accept and process query string parameters.
+4. Deploy the API and test it using the generated "Invoke URL".
 
 ## Instructions
 ### Part 1: Create a new REST API in API Gateway

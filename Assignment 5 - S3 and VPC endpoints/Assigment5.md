@@ -1,8 +1,18 @@
 
-## Intro
+## Introduction
 In this assignment we will create an S3 bucket, add a file to it and access said file from an EC2 instance.
 Afterwards we will modify the access to of the S3 using policies and a VPC endpoint.
 Afterwards the EC2 instance should remain available, but blocked for everyone else.
+
+## Objective
+The goal of this assignment is to familiarize you with Amazon S3 (Simple Storage Service), an object storage service that offers industry-leading scalability, data availability, security, and performance. By manipulating IAM (Identity and Access Management) roles and VPC (Virtual Private Cloud) endpoints, you will also learn how to fine-tune access to your S3 resources. After completing this assignment, you will be capable of:
+
+1. Creating an Amazon S3 bucket and uploading files to it.
+2. Setting up an IAM role with S3 access permissions and associating it with an EC2 instance.
+3. Accessing and interacting with an S3 bucket directly from an EC2 instance.
+4. Creating a VPC endpoint for S3, allowing your EC2 instances to access the bucket without requiring public internet access.
+5. Modifying S3 bucket policies to restrict access to a specific VPC endpoint.
+6. Verifying access restrictions by testing S3 access from different environments.
 
 ## Part 1: Creating an S3 bucket
 1. Log in to the AWS Management Console and navigate to the S3 service.
