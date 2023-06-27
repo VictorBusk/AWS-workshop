@@ -35,17 +35,20 @@ aws s3 ls s3://YOUR-BUCKET-NAME <- Lists the content of the specific bucket.
 
 ## Part 3: VPC endpoint policy
 1. Go to VPC -> Endpoints -> Create endpoint
-2. Create it with these configs (The ones not mentioned can be left as default):
-Services: search for S3 and choose the one with instance type "Gateway"
-VPC: Default
-Route tables: The one that is Main:Yes
-Policy: Full Access
+2. Create it with these configs (The ones not mentioned can be left as default):  
+Services: search for S3 and choose the one with instance type "Gateway"  
+VPC: Default  
+Route tables: The one that is Main:Yes  
+Policy: Full Access  
 
 ## Part 4: Restrict S3 access
 1. Go to your S3 bucket -> Permissions and change bucket policy
 2. Change the custom policy into the one in CustomPolicyTemplate.txt AFTER you have adjusted the values.
-The Bucket name is... the bucket name
-The VPCE-ID is the VPC endpoint ID listed at VPC -> Endpoints
+
+The Bucket name is... the bucket name  
+The VPCE-ID is the VPC endpoint ID listed at VPC -> Endpoints  
+The AWS-ACCOUNT-ID is found by clicking on your profile name in the top right corner  
+
 3. Save changes and head back to your EC2 instance. Verify that you still have access to the bucket, by running the same command as earlier.
 4. (Optional) From your local machine run the same command and veirfy that you wont have access.
 You need to have some configs as well as the AWS CLI for this. The configs:

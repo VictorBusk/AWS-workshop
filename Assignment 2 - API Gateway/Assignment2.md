@@ -39,6 +39,7 @@ This assignment is designed to deepen your understanding of AWS services by guid
 ### Part 4: Modify the Lambda function to accept query string and parameters
 1. Go to Lambda and open your Lambda function in the code editor
 2. Modify it to get a query string and make this input be reflected in some way.
+
 Feel free to use my example called part4.js
 
 ### Part 5: Test the API Gateway API

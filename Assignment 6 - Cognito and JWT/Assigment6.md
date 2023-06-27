@@ -30,7 +30,7 @@ The purpose of this assignment is to give you hands-on experience with Amazon Co
 ### Part 2: API Gateway authorization
 1. Head back to your API Gateway from earlier
 2. Go to the Authorizer tab in the laft pane
-3. Make it a cognito authorizer with your pool chosen and the token source name whatever you would like to call you header.
+3. Make it a cognito authorizer with your pool chosen and the token source name whatever you would like to call you header.  
 It could be "Authrization".
 ![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/auth.png)
 4. Go to any method and go to the Method Request

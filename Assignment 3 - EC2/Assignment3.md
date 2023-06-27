@@ -26,22 +26,23 @@ That's it! Once you're connected to your instance's terminal, you can start conf
 As an example and if you dare here is the commands for installing grafana and starting it on port 3000:
 
 sudo tee /etc/yum.repos.d/grafana.repo <<EOF
-[grafana]
-name=grafana
-baseurl=https://packages.grafana.com/oss/rpm
-repo_gpgcheck=1
-enabled=1
-gpgcheck=1
-gpgkey=https://packages.grafana.com/gpg.key
-sslverify=1
-sslcacert=/etc/pki/tls/certs/ca-bundle.crt
-EOF
+
+[grafana]  
+name=grafana  
+baseurl=https://packages.grafana.com/oss/rpm  
+repo_gpgcheck=1  
+enabled=1  
+gpgcheck=1  
+gpgkey=https://packages.grafana.com/gpg.key  
+sslverify=1  
+sslcacert=/etc/pki/tls/certs/ca-bundle.crt  
+EOF  
 
 sudo yum install grafana
 
 sudo service grafana-server start
 
-To access it you need to update the security group to allow for all CIDRs on port 3000 with custom TCP.
+To access it you need to update the security group to allow for all CIDRs on port 3000 with custom TCP.  
 The URL to acces grafana is [Public IPv4 address]:3000
 
 ![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/securitygroup.png)

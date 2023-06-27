@@ -1,6 +1,6 @@
 {
   "Version": "2012-10-17",
-  "Id": "Policy1415115909152",
+  "Id": "Policy1415115909153",
   "Statement": [
     {
       "Sid": "Access-to-specific-VPCE-only",
@@ -11,7 +11,8 @@
                    "arn:aws:s3:::YOUR-BUCKET-NAME/*"],
       "Condition": {
         "StringNotEquals": {
-          "aws:sourceVpce": "YOUR-VPCE-ID"
+          "aws:sourceVpce": "YOUR-VPCE-ID",
+          "aws:SourceAccount": "YOUR-AWS-ACCOUNT-ID"
         }
       }
     }
