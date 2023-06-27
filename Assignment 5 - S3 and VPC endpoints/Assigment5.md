@@ -28,9 +28,9 @@ The goal of this assignment is to familiarize you with Amazon S3 (Simple Storage
 2. Name the role whatever, but search for the permission AmazonS3FullAccess and add it.
 3. Go to your EC2 instance from the earlier exercise and add the IAM role.
 This can be done through Action -> Security -> Modify IAM role. Select the role you created.
-4. Connect to the EC2 instanse and access the S3 bucket. Utilize these two commands:
-aws s3 ls <- List all buckets
-aws s3 ls s3://YOUR-BUCKET-NAME <- Lists the content of the specific bucket.
+4. Connect to the EC2 instanse and access the S3 bucket. Utilize these two commands:  
+aws s3 ls <- List all buckets  
+aws s3 ls s3://YOUR-BUCKET-NAME <- Lists the content of the specific bucket.  
 ![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/iam.png)
 
 ## Part 3: VPC endpoint policy
