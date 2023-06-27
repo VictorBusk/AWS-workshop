@@ -48,6 +48,7 @@ Policy: Full Access
 The Bucket name is... the bucket name  
 The VPCE-ID is the VPC endpoint ID listed at VPC -> Endpoints  
 The AWS-ACCOUNT-ID is found by clicking on your profile name in the top right corner  
+![alt text](https://github.com/VictorBusk/AWS-workshop/blob/main/Images/accountid.png)
 
 3. Save changes and head back to your EC2 instance. Verify that you still have access to the bucket, by running the same command as earlier.
 4. (Optional) From your local machine run the same command and veirfy that you wont have access.
