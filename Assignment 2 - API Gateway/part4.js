@@ -1,10 +1,12 @@
-export const handler = async (event, context) => {
+exports.handler = async (event, context) => {
   console.log('event', event)
   const response = {
     headers: {
       "Content-Type": "application/json"
     }
   };
+
+  console.log('queryStringParameters', event.queryStringParameters);
 
   try {
     let name = null;
