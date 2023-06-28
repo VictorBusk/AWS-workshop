@@ -20,7 +20,7 @@ The aim of this assignment is to provide you with a hands-on experience with AWS
 5. Choose node.js as the runtime.
 6. Under "Permissions", choose "Create a new role with basic Lambda permissions".
 7. Click "Create function".
-8. In the "Function code" section, replace the existing code with the code in "helloworld.cs".
+8. In the "Function code" section, replace the existing code with the code in "helloworld.js".
 9. Click "Deploy" to save the function.
 10. Click "Test" and create a new test event. You can leave the body blank but I suggest going with the default request body. This will give you more inside of what is logged:
 
